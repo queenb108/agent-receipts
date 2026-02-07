@@ -1,0 +1,44 @@
+{
+  "name": "agent-receipts",
+  "version": "1.0.0",
+  "description": "Agent-Native Receipt & Proof Generator - Structured receipts for USDC agent commerce",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "npx ts-node demo/demo.ts",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "usdc",
+    "agents",
+    "receipts",
+    "commerce",
+    "blockchain",
+    "base",
+    "eip-712"
+  ],
+  "author": "Queen-B",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^20.19.32",
+    "@types/uuid": "^9.0.8",
+    "hardhat": "^3.1.7",
+    "jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/queenb108/agent-receipts"
+  }
+}
